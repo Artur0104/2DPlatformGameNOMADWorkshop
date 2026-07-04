@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744e765c38a0a5045971f4f89cfd45b9, type: 3}
+  m_Name: Torre_Fogo
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Base.ConfiguracaoTorre
+  nomeTorre: Fogo
+  icone: {fileID: 0}
+  spriteTorre: {fileID: 0}
+  descricao: "Torre de fogo que queima inimigos. Dano m\xE9dio com dano extra ao
+    longo do tempo."
+  custo: 80
+  custoMelhoria: 120
+  dano: 25
+  alcance: 3
+  velocidadeAtaque: 0.9
+  nivelMaximo: 3
+  multiplicadorDanoPorNivel: 1.5
+  multiplicadorAlcancePorNivel: 1.1
+  multiplicadorVelocidadePorNivel: 1.2
+  tipo: 1
+  duracaoStatus: 2
+  intensidadeStatus: 8
+  raioExplosao: 0
+  projetilPrefab: {fileID: 0}
+  corProjetil: {r: 1, g: 1, b: 1, a: 1}

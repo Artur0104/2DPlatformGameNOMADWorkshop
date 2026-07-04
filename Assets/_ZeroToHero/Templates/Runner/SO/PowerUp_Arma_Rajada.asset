@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0bbb07e01f492408210b6b43273ef6, type: 3}
+  m_Name: PowerUp_Arma_Rajada
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Base.ConfiguracaoPowerUp
+  nomePowerUp: Rajada
+  icone: {fileID: 0}
+  descricao: Dispara 3 tiros em sequencia rapida.
+  tipo: 0
+  arma: {fileID: 11400000, guid: 086f02864eecb3846878c906adf80dcc, type: 2}
+  duracao: 12
+  tipoBoost: 0
+  valorBoost: 1

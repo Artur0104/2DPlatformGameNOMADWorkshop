@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a10f4dc6158d1d4459d82c4dfdd6bfc4, type: 3}
+  m_Name: Inimigo_Pequeno
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Base.ConfiguracaoInimigoRunner
+  nomeInimigo: Inimigo
+  tipo: 0
+  sprite: {fileID: 21300000, guid: d9b581a4d33104e46a3691dfca044170, type: 3}
+  vida: 10
+  velocidade: 2
+  danoContato: 1
+  desvioX: 0.5
+  atiraProjeteis: 0
+  cooldownTiro: 2
+  velocidadeProjetil: 4
+  danoProjetil: 1
+  xpDrop: 2
+  chanceDropVida: 0.1
+  chanceDropXp: 1
+  pesoSpawn: 60
+  tempoMinimoSpawn: 0

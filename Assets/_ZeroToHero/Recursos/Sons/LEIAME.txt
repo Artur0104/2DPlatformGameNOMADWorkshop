@@ -1,0 +1,27 @@
+LEIAME — Como Adicionar Sons ao Projeto
+========================================
+
+1. Coloque seus arquivos de áudio (.wav, .mp3, .ogg) nesta pasta.
+
+2. No Unity, selecione cada arquivo e configure:
+   - Load Type: "Decompress On Load" (para efeitos curtos como tiros, pulos)
+   - Load Type: "Compressed In Memory" (para músicas de fundo)
+   - Preload Audio Data: ativado
+
+3. Arraste o AudioClip para o campo correspondente no Inspector:
+   - ComponenteEfeito → "Som Dano", "Som Pulo", "Som Ataque", "Som Coleta"
+   - GerenciadorAudio → "Musica Fundo Padrao"
+   - GerenciadorAudio → "Efeito Source Prefab" (opcional)
+
+4. Para testar: dê Play no Unity e o som tocará nos momentos configurados.
+
+5. Sem áudio? O jogo funciona normalmente. Os métodos de som têm fallback
+   seguro e não travam o jogo se nenhum clipe estiver definido.
+   Um aviso será exibido no console.
+
+Sugestões de sites para sons gratuitos:
+- freesound.org
+- opengameart.org
+- itch.io (game assets → sound effects)
+
+Formatos recomendados: .wav (efeitos), .ogg ou .mp3 (músicas)

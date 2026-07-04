@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744e765c38a0a5045971f4f89cfd45b9, type: 3}
+  m_Name: Torre_Canhao
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Base.ConfiguracaoTorre
+  nomeTorre: "Canh\xE3o"
+  icone: {fileID: 0}
+  spriteTorre: {fileID: 0}
+  descricao: "Torre explosiva de dano em \xE1rea. Dano alto, mas lenta e cara."
+  custo: 100
+  custoMelhoria: 150
+  dano: 40
+  alcance: 2.5
+  velocidadeAtaque: 0.6
+  nivelMaximo: 3
+  multiplicadorDanoPorNivel: 1.5
+  multiplicadorAlcancePorNivel: 1.1
+  multiplicadorVelocidadePorNivel: 1.2
+  tipo: 5
+  duracaoStatus: 3
+  intensidadeStatus: 0.5
+  raioExplosao: 1.5
+  projetilPrefab: {fileID: 0}
+  corProjetil: {r: 1, g: 1, b: 1, a: 1}
