@@ -395,9 +395,9 @@ MonoBehaviour:
   particulaPrefab: {fileID: 5741581291480462825, guid: 7a47e3efd20d85b4ba73a8789b1112ac, type: 3}
   duracaoParticula: 1
   audioSrcEfeitos: {fileID: 0}
-  somDano: {fileID: 0}
-  somPulo: {fileID: 0}
-  somAtaque: {fileID: 0}
-  somColeta: {fileID: 0}
+  somDano: {fileID: 8300000, guid: 41b0c02f3ddab5b4bbe0f48011bdf0db, type: 3}
+  somPulo: {fileID: 8300000, guid: 0148204fef1e46f44a879ccff776e598, type: 3}
+  somAtaque: {fileID: 8300000, guid: d755648c41db6364ca392820336a4d31, type: 3}
+  somColeta: {fileID: 8300000, guid: 7aee72859640e13458128b7ef3ea2348, type: 3}
   intensidadeVibracao: 0.1
   duracaoVibracao: 0.2

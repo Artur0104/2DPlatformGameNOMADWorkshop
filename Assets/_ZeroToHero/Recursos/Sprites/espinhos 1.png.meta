@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 207e3d67fd9314144a2bf8cb753e6601
+guid: 08d91c331ccaa4545b0c6a73023aa3ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -180087992169332296
-    second: Espinhos(1)_0
+      213: -7960955008577019140
+    second: espinhos 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Espinhos(1)_0
+      name: espinhos 1_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 11
         y: 0
-        width: 27
-        height: 32
+        width: 77
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b10f6edce2308df0800000000000000
-      internalID: -180087992169332296
+      spriteID: cf266e04991058190800000000000000
+      internalID: -7960955008577019140
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Espinhos(1)_0: -180087992169332296
+      espinhos 1_0: -7960955008577019140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

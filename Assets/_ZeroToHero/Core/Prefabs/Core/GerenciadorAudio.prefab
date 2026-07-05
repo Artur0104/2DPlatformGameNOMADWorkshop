@@ -46,8 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Base.GerenciadorAudio
   persistirEntreCenas: 1
   musicaSource: {fileID: 0}
-  musicaFundoPadrao: {fileID: 0}
-  efeitoSourcePrefab: {fileID: 0}
+  musicaFundoPadrao: {fileID: 8300000, guid: ad2301f5557b5af45a4d2c12124eb244, type: 3}
+  efeitoSourcePrefab: {fileID: 8091300612989328541, guid: f5b25cd3fae2e2b4793fcdf0ef0df34d, type: 3}
   tamanhoPoolEfeitos: 10
   volumeGeral: 1
   volumeMusica: 0.5
