@@ -4426,6 +4426,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5849224556009971953, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_Name
       value: CheckpointDemo (1)
@@ -7457,6 +7469,18 @@ PrefabInstance:
     - target: {fileID: 2370956154937822322, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5849224556009971953, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_Name
@@ -12679,27 +12703,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2960848907930416018, guid: e11f58c9d5196c340adfd5554e7a63db, type: 3}
   m_PrefabInstance: {fileID: 8532827832397636180}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1916480558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289663298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dee6408385d3fbe479ac6ae2417d606f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Componentes.ComponenteEfeito
-  particulaPrefab: {fileID: 5741581291480462825, guid: 7a47e3efd20d85b4ba73a8789b1112ac, type: 3}
-  duracaoParticula: 1
-  audioSrcEfeitos: {fileID: 0}
-  somDano: {fileID: 0}
-  somPulo: {fileID: 0}
-  somAtaque: {fileID: 0}
-  somColeta: {fileID: 0}
-  intensidadeVibracao: 0.1
-  duracaoVibracao: 0.2
 --- !u!114 &1916480559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14410,6 +14413,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5849224556009971953, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_Name
       value: CheckpointDemo
@@ -15488,9 +15503,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5331848624772723412, guid: e11f58c9d5196c340adfd5554e7a63db, type: 3}
       insertIndex: 9
       addedObject: {fileID: 1916480559}
-    - targetCorrespondingSourceObject: {fileID: 5331848624772723412, guid: e11f58c9d5196c340adfd5554e7a63db, type: 3}
-      insertIndex: 10
-      addedObject: {fileID: 1916480558}
   m_SourcePrefab: {fileID: 100100000, guid: e11f58c9d5196c340adfd5554e7a63db, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
