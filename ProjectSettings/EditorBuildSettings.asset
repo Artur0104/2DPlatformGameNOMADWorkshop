@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Plataforma.unity
     guid: 76e07d63a01f21c4f84728e16ca0a77a
   - enabled: 1
+    path: Assets/Scenes/Plataforma_2.unity
+    guid: 1d4fe8cdb9fde004aad37dc256ea96d2
+  - enabled: 1
     path: Assets/Scenes/TowerDefense.unity
     guid: ff33a224b00cdf047a4b7b147732f5d6
   - enabled: 1

@@ -194,8 +194,18 @@ MonoBehaviour:
   efeito: {fileID: 0}
   habilidades: []
   configMovimento: {fileID: 11400000, guid: 2d6158ed71c322044982014185ed54f1, type: 2}
-  tagCheckpoint: Checkpoint
   tempoInvencibilidadeRespawn: 1.5
+  deadZoneDirecao: 0.01
+  squashArX: 1.2
+  squashArY: 0.8
+  squashPousoX: 0.8
+  squashPousoY: 1.2
+  velocidadeSquash: 15
+  offsetPoeira: 0.5
+  duracaoFadeMorte: 0.5
+  duracaoTotalMorte: 1
+  duracaoPiscarDano: 0.5
+  intervaloPiscarDano: 0.08
 --- !u!114 &6045288327675815118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,10 +250,11 @@ MonoBehaviour:
   gravidade: 0
   tempoCoyote: 0.1
   bufferPulo: 0.1
-  pulosMaximos: 1
+  pulosMaximos: 2
   tempoDash: 0.2
   velocidadeDash: 15
   cooldownDash: 0.5
+  desaceleracao: 8
   camadaChao:
     serializedVersion: 2
     m_Bits: 256

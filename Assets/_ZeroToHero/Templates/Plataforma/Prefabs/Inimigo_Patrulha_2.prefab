@@ -68,7 +68,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0059663057, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -165,9 +165,9 @@ GameObject:
   - component: {fileID: 3171083410229852608}
   - component: {fileID: 4415171248138190698}
   - component: {fileID: 2951397172076161200}
-  - component: {fileID: 8549437757866819358}
+  - component: {fileID: 7728588508140568903}
   m_Layer: 0
-  m_Name: Inimigo_Patrulha
+  m_Name: Inimigo_Patrulha_2
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
   onMorte:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8549437757866819358
+--- !u!114 &7728588508140568903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -373,13 +373,13 @@ MonoBehaviour:
   waypoints:
   - {fileID: 0}
   - {fileID: 0}
-  velocidade: 2
+  velocidade: 4
   tempoEspera: 0.5
   modoLoop: 1
-  danoContato: 1
+  danoContato: 3
   tagJogador: Jogador
   cooldownDano: 0.5
-  forcaBounceStomp: 6
+  forcaBounceStomp: 10
   distanciaWaypoint: 0.1
   deadZoneDirecao: 0.01
   duracaoSquashMorte: 0.15
