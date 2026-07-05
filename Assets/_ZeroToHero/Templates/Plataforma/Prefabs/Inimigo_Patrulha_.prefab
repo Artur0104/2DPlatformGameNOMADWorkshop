@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 2951397172076161200}
   - component: {fileID: 8549437757866819358}
   m_Layer: 0
-  m_Name: Inimigo_Patrulha
+  m_Name: Inimigo_Patrulha_
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
