@@ -5502,7 +5502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee6408385d3fbe479ac6ae2417d606f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Componentes.ComponenteEfeito
-  particulaPrefab: {fileID: 0}
+  particulaPrefab: {fileID: 5741581291480462825, guid: 7a47e3efd20d85b4ba73a8789b1112ac, type: 3}
   duracaoParticula: 1
   audioSrcEfeitos: {fileID: 0}
   somDano: {fileID: 0}
@@ -6426,7 +6426,7 @@ PrefabInstance:
     - target: {fileID: 1510095114276398342, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2283369100809373660, guid: 8bd7dea7b5724d743bfa781f160c6ba2, type: 3}
+      objectReference: {fileID: -7797429718702166737, guid: ba78344e0947b0342bdfbc2e1461c406, type: 3}
     - target: {fileID: 1510095114276398342, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_DrawMode
       value: 0
@@ -6479,17 +6479,37 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666631674640650642, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: corAtivo.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5849224556009971953, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
       propertyPath: m_Name
       value: CheckpointDemo
       objectReference: {fileID: 0}
     - target: {fileID: 8476341617311791824, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
+      propertyPath: m_SpriteTilingProperty.newSize.x
       value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 8476341617311791824, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
+      propertyPath: m_SpriteTilingProperty.newSize.y
       value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476341617311791824, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476341617311791824, guid: 2089e2a5f90f1ff47bc8514f96115f2b, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7593,7 +7613,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jogador
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -6406057959490816060, guid: e11f58c9d5196c340adfd5554e7a63db, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
