@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6045288327675815118}
   - component: {fileID: 5308386400623815688}
   - component: {fileID: 1279132552478222949}
+  - component: {fileID: -6406057959490816060}
   m_Layer: 0
   m_Name: Jogador_Plataforma
   m_TagString: Jogador
@@ -379,3 +380,24 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &-6406057959490816060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5331848624772723412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee6408385d3fbe479ac6ae2417d606f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Componentes.ComponenteEfeito
+  particulaPrefab: {fileID: 5741581291480462825, guid: 7a47e3efd20d85b4ba73a8789b1112ac, type: 3}
+  duracaoParticula: 1
+  audioSrcEfeitos: {fileID: 0}
+  somDano: {fileID: 0}
+  somPulo: {fileID: 0}
+  somAtaque: {fileID: 0}
+  somColeta: {fileID: 0}
+  intensidadeVibracao: 0.1
+  duracaoVibracao: 0.2
