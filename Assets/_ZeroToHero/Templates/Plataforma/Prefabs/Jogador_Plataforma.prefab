@@ -247,7 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZeroToHero.Core.Base.ComponenteMovimento
   config: {fileID: 11400000, guid: 2d6158ed71c322044982014185ed54f1, type: 2}
   velocidadeAndar: 5
-  forcaPulo: 10
+  forcaPulo: 12
   gravidade: 0
   tempoCoyote: 0.1
   bufferPulo: 0.1
